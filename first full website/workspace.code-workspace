@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "..\\Only html Project"
+		},
+		{
+			"path": "..\\Only html Project\\cv-project"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "cv-project"
+	}
+}
