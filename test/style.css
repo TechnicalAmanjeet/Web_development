@@ -1,65 +1,32 @@
 *{
   padding: 0;
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   box-sizing: border-box;
   background: #bbbed5;
-  color: azure;
+  /* color: azure; */
 }
 
-.container
-{
-/* border: 2px green dashed; */
-display: inline-block;
-margin: 10px auto;
-}
-
-
-.container h1 {
-    /* border: 2px green solid; */
-    /* display: inline-block; */
-    /* width: 150px; */
-    padding: 6px;
-    margin: 10px auto;
-    text-align: center;
-    
-}
-.container .colligues{
-  /* border: 2px red solid; */
-  float: left;
-  display: inline-block;
-  width: 33%;
-
-}
-.container .colligues img{
-  height: 400px;
-  width: 267px;
-  /* margin: auto; */
-  display: block;
-  margin: auto;
-  border: 3px #FFF4C3 solid;
-  
-}
-
-.container .colligues h3{
-  /* text-align: center; */
-  display: inline-block;
-  width: 170px;
-  margin: 5px 13%;
-  color: #9D012D;
-  font-size: 25px;
-  /* font-weight: bolder; */
-  /* border: 2px red solid; */
-}
-
-.container .colligues p {
+.container {
+    border: 2px dashed red;
     /* text-align: center; */
-    display: inline-block;
-    width: 256px;
-    margin: 5px 0px 0px 13%;
-    color: black;
-    text-align: initial;
-    /* font-size: 25px; */
-    /* font-weight: bolder; */
-    /* border: 2px red solid; */
+    margin: 50px;
+}
+
+.container img {
+    border: 2px solid blue;
+    height: 42px;
+    display: block;
+    margin: auto;
+    /* position: relative; */
+    /* bottom: 3px; */
+}
+
+
+.container h2 {
+    border: 2px solid green;
+    text-align: center;
+    margin: auto;
+    width: 492px;
+    /* display: inline-block; */
 }
