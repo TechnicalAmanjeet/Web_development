@@ -1,0 +1,117 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 996px;
+  margin: auto;
+  /* height: 180px; */
+  /* border: 2px dashed blue; */
+}
+
+/* header coding starts here  */
+
+header{
+  height: 174.5px;
+  background: #AB183D;
+}
+
+.heading img{
+  margin: 7px 20px;
+  display: inline-block;
+  /* border: 2px red solid; */
+}
+
+.heading .title{
+  /* border: 2px red solid; */
+  display: inline-block;
+  float: right;
+  margin: 5% 19% 0% 0%;
+  color: white;
+}
+
+.heading .title h1,h2{
+  text-align: center;
+}
+
+.heading .title h1{
+  font-size: 3em;
+}
+
+.heading .title h2{
+  font-size: 1.25em;
+}
+
+/* header coding ends here  */
+
+/* nav coding starts here  */
+nav{
+  /* background-color: black; */
+  height: 25%;
+  margin-top: 8px;
+}
+
+nav ul{
+  text-decoration: none;
+}
+
+nav ul li{
+  /* border-right: 1px solid white; */
+  background: black;
+  float: left;
+  padding: 18px 26px;
+  list-style: none;
+  margin-right: 1px;
+  /* margin: 0 20px; */
+}
+
+nav ul li a{
+  
+  color: rgb(255,255,255);
+  text-decoration: none;
+  font-size: 18px;
+  width: 30px;
+  /* border-right: 1px solid white; */
+}
+
+/* nav bar coding ends here  */
+
+/* static link coding starts here  */
+.floatingLinks{
+  margin-top: 20px;
+}
+.floatingLinks .first{
+margin-top: 80px;
+}
+
+.floatingLinks .first ul{
+  list-style: none;
+}
+
+.floatingLinks .first ul li{
+  float: left;
+  margin-right: 2px;
+  padding: 0px 5px;
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+}
+
+.floatingLinks .first ul li:nth-child(1){
+  border-left: none;
+}
+
+.floatingLinks .first li:nth-child(4){
+  border-right: none;
+}
+
+.floatingLinks .first ul li a{
+  /* text-decoration: none; */
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+
+/* static link coding ends here  */
