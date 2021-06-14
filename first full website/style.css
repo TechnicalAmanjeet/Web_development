@@ -95,7 +95,7 @@ width: 100%;
   float: left;
   display: inline-block;
   width: 33%;
-
+  
 }
 .container .colligues img{
   height: 400px;
@@ -104,7 +104,7 @@ width: 100%;
   display: block;
   margin: auto;
   border: 3px #FFF4C3 solid;
-  
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 .container .colligues h3{
