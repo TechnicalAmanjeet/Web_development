@@ -14,18 +14,26 @@ h1{
 }
 
 .linear{
-  /* height: px; */
+  height: 1000px;
   border: 2px solid red;
   background: linear-gradient(red,white,green);
+  text-align: center;
 }
 
 .main{
-  width: 49.7%;
+  width: 200px;
   text-align: center;
   display: inline-block;
   border: 1px yellow solid;
 }
-.third{
+/* .third{
   width: 100%;
   margin-top: 5px;
+} */
+
+.main{
+  position: sticky;
+  top: 30px;
+  right: 0px;
+  /* margin: 0px 1%; */
 }
