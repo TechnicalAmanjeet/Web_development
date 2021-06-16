@@ -132,3 +132,39 @@ nav ul li a{
 .second{
   margin-left: 0px;
 }
+
+
+/* join us section starts here  */
+.joinus{
+  /* border: 2px solid red; */
+  text-align: center;
+  margin:20px 0px;
+}
+
+/* .joinus .join_first{
+  
+  display: inline-block;
+} */
+
+.joinus .join_first a{
+  text-decoration: none;
+  background-color: #1B95E0;
+  /* width: 1.5em; */
+  padding: 6px;
+  border-radius: 5px;
+  color: white;
+}
+
+.joinus .join_second{
+  margin-top: 8px;
+}
+
+.joinus .join_second a{
+  background: #0000A0;
+  color: white;
+  padding: 10px;
+  display: inline-block;
+  width: 400px;
+  font-size: 25px;
+}
+/* join us section end here  */
