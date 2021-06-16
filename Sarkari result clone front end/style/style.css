@@ -168,3 +168,50 @@ nav ul li a{
   font-size: 25px;
 }
 /* join us section end here  */
+
+/* Vaccancy section starts here  */
+.vaccancy_section{
+  /* border: 2px red solid; */
+}
+
+.vaccancy_section a{
+  background: #1B95E0;
+  display: inline-block;
+  width: 242px;
+  padding: 2px 5px;
+  /* height: 70px; */
+  text-align: center;
+  margin: 0px 0px 5px 1px;
+  font-weight: bolder;
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+}
+
+.vaccancy_section a:nth-child(1){
+  background-color:#868A08 ;
+}
+
+.vaccancy_section a:nth-child(2){
+  background-color:rgb(14, 14, 204) ;
+}
+.vaccancy_section a:nth-child(3){
+  background-color:#FB5E03 ;
+}
+.vaccancy_section a:nth-child(4){
+  background-color:#8C0101 ;
+}
+.vaccancy_section a:nth-child(5){
+  background-color:#FB0303;
+}
+.vaccancy_section a:nth-child(6){
+  background-color:#0B610B ;
+}
+.vaccancy_section a:nth-child(7){
+  background-color:#FF00BF ;
+}
+
+.vaccancy_section a:nth-child(8){
+  background-color: #0080FF;
+}
+/* Vaccancy section starts here  */
