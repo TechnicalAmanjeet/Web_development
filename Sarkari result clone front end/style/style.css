@@ -7,7 +7,7 @@
 .container{
   width: 996px;
   margin: auto;
-  /* height: 180px; */
+  height: 1800px;
   /* border: 2px dashed blue; */
 }
 
@@ -79,11 +79,24 @@ nav ul li a{
 /* nav bar coding ends here  */
 
 /* static link coding starts here  */
-.floatingLinks{
-  margin-top: 20px;
+
+  .floatingLinks {
+    /* margin: 21px 4px; */
+    margin-top: 20px;
+    width: 995px;
+    /* text-align: center; */
+    /* border: 2px red solid; */
+    display: inline-block;
 }
-.floatingLinks .first{
-margin-top: 80px;
+
+.first{
+  /* margin-top: 80px; */
+  /* height: 20px; */
+  /* width: 100vh; */
+  /* margin-left: 30px; */
+  margin-left: 50px;
+  /* display: inline-block; */
+  /* background: blue; */
 }
 
 .floatingLinks .first ul{
@@ -108,10 +121,14 @@ margin-top: 80px;
 
 .floatingLinks .first ul li a{
   /* text-decoration: none; */
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
 }
 
 
 
 /* static link coding ends here  */
+
+.second{
+  margin-left: 0px;
+}
