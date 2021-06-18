@@ -270,6 +270,76 @@ nav ul li a{
 /* link second section start here  */
 .container4{
   margin-top: 20px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
+  height: 1000px;
+}
+.container4 .first66{
+  display: inline-block;
+  width: 66%;
+  float: left;
+  height: 1000px;
+  /* border: 2px solid blue; */
+  margin-right: 12px;
+}
+
+.container4 .first66 .first50{
+  width: 48%;
+  border: 2px #AB183D solid;
+  display: inline-block;
+  margin: 0px 5px;
+}
+
+.container4 .first66 .first50 h2{
+  margin-top: 0px;
+  background: #AB183D;
+  /* width: 30% ; */
+  height: 40px;
+  color: white;
+  font-size: 30px;
+}
+
+.container4 .first66 .first50 ul{
+  padding:0px 0px 0px 50px;
+  /* margin: 0px 0px 0px 7px; */
+  /* display: inline-block; */
+}
+
+.container4 .first66 .first50 ul li{
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.viewmoresecond{
+  margin-top: 55px;
+}
+
+
+
+/* first 33 % starts here  */
+.container4 .first33{
+  width: 32%;
+  border: 2px #AB183D solid;
+  display: inline-block;
+  margin: 0px 2px;
+}
+
+.container4 .first33 h2{
+  margin-top: 0px;
+  background: #AB183D;
+  /* width: 30% ; */
+  height: 40px;
+  color: white;
+  font-size: 30px;
+}
+
+.container4 .first33 ul{
+  padding:0px 0px 0px 50px;
+  /* margin: 0px 0px 0px 7px; */
+  /* display: inline-block; */
+}
+
+.container4 .first33 ul li{
+  margin-top: 10px;
+  font-size: 18px;
 }
 /* link second section end here  */
