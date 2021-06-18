@@ -269,9 +269,9 @@ nav ul li a{
 
 /* link second section start here  */
 .container4{
-  margin-top: 20px;
+  margin: 20px 0px;
   /* border: 2px solid red; */
-  height: 1000px;
+  /* height: 1000px; */
 }
 .container4 .first66{
   display: inline-block;
@@ -343,3 +343,46 @@ nav ul li a{
   font-size: 18px;
 }
 /* link second section end here  */
+
+/* dmca protected section start here  */
+.section4{
+  margin-top: 40px;
+  /* border: 2px solid red; */
+  text-align: center;
+  /* height: 70px; */
+}
+
+.section4 a{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold ;
+  color: black;
+  padding: 5px;
+  border: 2px solid #514207;
+  background: #FEDC53;
+
+}
+/* dmca protected section end here  */
+
+/* last section starts here  */
+.sectionlast{
+  /* margin-top: 30px; */
+  border: 2px solid #AB183D;
+  text-align: center;
+  width: 75%;
+  margin: 30px auto;
+
+}
+
+.sectionlast p {
+  padding: 20px 20px;
+  font-size: 18px;
+}
+
+.sectionlast h1{
+  background: #AB183D;
+  color: white;
+  padding: 5px;
+  /* font-size: 0.8rem; */
+}
+/* last section ends here  */
