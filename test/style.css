@@ -4,17 +4,9 @@
   box-sizing: border-box;
   text-align: justify;
 }
-body{
-  background: 100% url(./images/profilPic2.jpg);
-  /* opacity: 1; */
-}
-span{
-  width: 20px;
-  border: 2px solid red;
-}
 
-div{
-  border: 2px solid blue;
-  width: 50px;
-  text-decoration: aliceblue;
+img{
+  width: 100vw;
+  /* height:fit-content; */
+  opacity: 0.2;
 }
