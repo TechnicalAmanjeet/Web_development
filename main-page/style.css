@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: whitesmoke;
+  list-style: none;
+  text-decoration: none;
+}
+
+body{
+  /* margin-top: ; */
+height: calc(100vh-20px);
+background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(./images/meeting-594091_960_720.webp) center/cover no-repeat fixed;
+}
+
+.container{
+  margin-top: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+nav .nav ul li{
+  float: left;
+  padding: 0 1.5vw;
+  font-weight: bold;
+}
+
+span{
+  /* display: inline-block;
+  height: 50px; */
+  margin-left: 7px;
+}
+
+nav .nav ul li:nth-child(1){
+  font-size: 40px;
+}
+nav .nav ul li:nth-child(2){
+  margin-top: 13px;
+}
+nav .nav ul li:nth-child(3){
+  margin-top: 13px;
+}
+nav .nav ul li:nth-child(4){
+  margin-top: 13px;
+}
+nav .nav ul li:nth-child(5){
+  margin-top: 13px;
+}
+
+
+
+
+nav .login {
+  display: flex;
+  justify-content: space-between;
+  margin: 13px 5vw;
+  padding: 0 0vw;
+}
+
+nav .login h4{
+  margin: 0 0.5vw;
+  padding: 3px 1vw;
+  background-color: rgba(184, 182, 182,0.7);
+  border-radius: 20px;
+}
+
+.main,.last{
+  margin-top: 10vh;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main{
+  margin-top: 30vh;
+  
+}
+
+.last{
+  margin-top: 20vh;
+  
+}
+
+.main h1{
+  font-size: 4em;
+}
+
+.main p{
+  margin-top: 10px;
+  /* color: red; */
+  font-size: 29px;
+}
+
+.last h4{
+  padding:8px 40px;
+  border: 2px solid rgb(255, 13, 0);
+  background: rgb(109, 8, 65);
+  border-radius: 5px;
+}
+
+.last p{
+  margin-top: 20px;
+}
+
+.relative{
+  width: 40px;
+  height: 40px;
+  background: white;
+  position: fixed;
+  right: 20px;
+  bottom: 10px;
+}
