@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Linux Web App</title>
+
+  <style>
+    body {
+
+      background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/VirtualBox_RHEL_8_07_04_2021_21_22_14.png/300px-VirtualBox_RHEL_8_07_04_2021_21_22_14.png) center/cover no-repeat fixed;
+      color: white;
+      text-align: center;
+    }
+
+    .container{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-align: center;
+      margin-top: 120px;
+      
+    }
+
+    .form{
+      margin-left: 100px;
+    }
+   
+    .output{
+      margin-right: 10px;
+      background: white;
+      padding: 40px;
+      color: black;
+      font-weight: bold;
+      font-size: 200px;
+      border-radius: 30px;
+    }
+
+    #cmd{
+      color: black;
+      width: 250px;
+      height: 60px;
+      margin-top: 20px;
+      padding: 2px 20px ;
+      font-size: 19px;
+      font-weight: bold;
+      border: 1px dashed blue;
+      border-radius: 10px;
+    }
+
+    #enter{
+      font-size: 70px;
+      font-weight: bold;
+    }
+    
+    #submit{
+      width: 250px;
+      height: 70px;
+      padding: 2px ;
+      font-size: 50px;
+    }
+
+    #submit:hover{
+      background-color: black;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+
+
+
+  <div class="container">
+    <div class="form">
+      <form action="http://192.168.56.110:8080/cgi-bin/aman.py" method="get" target="output">
+        <label for="cmd" id="enter">Enter command </label>
+        <br>
+        <input type="text" name="cmd" id="cmd">
+        <br><br>
+        <input type="submit" id="submit" value="Run">
+      </form>
+    </div>
+    
+    <div class="output">
+      <iframe frameborder="2" id="output" width="500px" height="400px" name="output">
+    
+      </iframe>
+    </div>
+
+  </div>
+
+
+</body>
+
+</html>
